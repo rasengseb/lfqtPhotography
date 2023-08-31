@@ -10,15 +10,16 @@
     </head>
     <body>
         <!-- MENU BURGER -->
-        <header>
-            <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light nav-pills nav-justified">
-                    <a class="navbar-brand" href="../lfqtPhotography/index.html">
+        <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
+                    <a class="navbar-brand d-flex align-item-center mb-3 mb-md-0 me-md-auto link-body-emphasis" href="../lfqtPhotography/index.html">
                         <img src="../lfqtPhotography/photo/IMG_5838.jpeg" alt="logo" width="200" height="66" class="d-inline-block align-text-top">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toogle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse nav nav-pills" id="navbarNavDropdown">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="../lfqtPhotography/HTML/portfolio.html">Portfolio</a>
@@ -36,8 +37,18 @@
                     </div>
             </nav>
         </header>
+        </div>
         <main>
             <!-- CAROUSEL -->
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../lfqtPhotography/photo/1DD81EF3-8167-428E-A84D-3683A1B5AD35.png" class="d-block w-100 h-70" alt="...">
+                  </div>
+                </div>
+            </div>
+
+            <!-- 
             <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
@@ -74,6 +85,8 @@
                     </div>
                 </div>
             </div>
+            -->
+
 
 <!-- START THE FEATURETTES -->
             <hr class="featurette-divider">
@@ -93,14 +106,15 @@
             <hr class="featurette-divider">
 
             <div class="row-featurette">
-                <div class="col-md-5 order-md-1">
-                    <img src="../lfqtPhotography/photo/IMG_7986.JPG" class="img-fluid" style="max-width: 500px; max-height: 500px;">
-                </div>
 
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">SERVICES</h2>
+                    <h2 class="featurette-heading fw-normal lh-1">SERVICES</h2>
                     <p class="lead">Découvre ce que je propose</p>
                     <a href="../lfqtPhotography/HTML/services.html" class="btn btn-outline-primary" role="button">DECOUVRIR MES SERVICES</a>
+                </div>
+
+                <div class="col-md-5 order-md-1">
+                    <img src="../lfqtPhotography/photo/IMG_7986.JPG" class="img-fluid" style="max-width: 500px; max-height: 500px;">
                 </div>
             </div>
 
